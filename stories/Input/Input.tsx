@@ -93,7 +93,7 @@ export const Input: React.FC<InputProps> = ({
         value={value}
         style={style}
         disabled={disabled}
-        placeholder={placeholder}
+        placeholder={placeholder ? placeholder : "No Placeholder found"}
         onChange={(event) => handleChange(event)}
         readOnly={readOnly}
         {...props}
