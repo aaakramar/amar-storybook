@@ -9,7 +9,7 @@ export const TestPage = () => {
   return (
     <>
       <h1>Test Page</h1>
-      <Input name="email" onChange={handleText} strictMode dataType="email" />
+      <Input name="email" placeholder="test" onChange={handleText} strictMode dataType="email" />
     </>
   );
 };
