@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "es6",
+    "jsx": "react",
+    "declaration": true,
+    "declarationDir": "dist",
+    "sourceMap": true,
+    "outDir": "dist",
+    "esModuleInterop": true, //interoperability between TypeScript modules and CommonJS modules
+    "allowJs": true, //file allows you to include JavaScript files in your TypeScript project
+    "moduleResolution": "node",
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "noImplicitAny": true,
+    "strictNullChecks": true, //strict null checking during the type checking process.
+    "noUnusedParameters": true,
+    "allowSyntheticDefaultImports": true
+  },
+  "include": ["stories"],
+  "exclude": ["node_modules", "dist"]
+}

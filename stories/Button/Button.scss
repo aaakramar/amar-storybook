@@ -1,0 +1,102 @@
+@import "../../styles/colors.scss";
+
+$box-shadow-sm: 0px 4px 5px rgba(0, 0, 0, 0.07);
+
+.storybook-button {
+  font-family: "Nunito Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  border: 0;
+  border-radius: 10px;
+  cursor: pointer;
+  display: inline-block;
+  line-height: 1;
+
+  &--primary {
+    color: white;
+    background-color: $color-57bc68;
+
+    &:hover {
+      color: white;
+      background-color: $color-2ca144;
+    }
+  }
+
+  &--secondary {
+    color: #333;
+    background-color: transparent;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 0px 0px 1px inset;
+
+    &:hover {
+      color: #333;
+      background-color: $color-e5e5e5;
+      box-shadow: rgba(0, 0, 0, 0.15) 0px 0px 0px 1px inset;
+    }
+  }
+
+  &--danger {
+    color: #ffffff;
+    background-color: $color-ff5724;
+
+    &:hover {
+      color: #ffffff;
+      background-color: $color-e54e20;
+    }
+  }
+
+  &--primary--disabled {
+    background-color: $color-89d095;
+
+    &:hover {
+      background-color: $color-89d095;
+      cursor: not-allowed;
+    }
+  }
+
+  &--secondary--disabled {
+    background-color: $color-fafafa;
+
+    &:hover {
+      background-color: $color-fafafa;
+      cursor: not-allowed;
+    }
+  }
+
+  &--danger--disabled {
+    background-color: $color-ff784f;
+
+    &:hover {
+      background-color: $color-ff784f;
+      cursor: not-allowed;
+    }
+  }
+
+  &-default-width {
+    min-width: 7rem;
+  }
+
+  &--small {
+    font-size: 12px;
+    min-width: 5rem;
+    padding: 10px 16px;
+  }
+
+  &--small::after {
+    padding: 2px 10px !important;
+  }
+
+  &--medium {
+    font-size: 14px;
+    min-width: 6rem;
+    padding: 11px 20px;
+  }
+
+  &--medium::after {
+    padding: 0px 12px 0px 12px !important;
+  }
+
+  &--large {
+    font-size: 16px;
+    min-width: 8rem;
+    padding: 12px 24px;
+  }
+}

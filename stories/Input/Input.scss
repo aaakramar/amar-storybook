@@ -1,0 +1,66 @@
+@import "../../styles/colors.scss";
+
+.label {
+  color: $color-7a7a7a;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  margin-bottom: 4px;
+  margin-left: 2px;
+}
+
+.input {
+  border: 1px solid $color-e5e5e5;
+  border-radius: 8px;
+  padding: 10px 12px;
+  width: 50%;
+  background-color: $color-ffffff;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 140%;
+  color: $color-7a7a7a;
+
+  &::placeholder {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 140%;
+    color: $color-cbd5e1;
+  }
+
+  &:hover {
+    border: 1px solid $color-94a3b8;
+  }
+
+  &:focus {
+    border: 1px solid $color-2ca144;
+    outline: none; /* removes default blue color from input box */
+  }
+
+  // &.primary {
+  //   border: 1px solid green;
+  // }
+
+  &.input-error {
+    border: 1px solid $color-ff5724;
+  }
+
+  &[disabled] {
+    border: 1px solid $color-e5e5e5;
+    cursor: not-allowed;
+  }
+
+  &[readonly] {
+    border: 1px solid $color-e5e5e5;
+  }
+}
+
+.error {
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 14px;
+  color: $color-ff5724;
+  margin-top: 3px;
+  margin-right: 2px;
+}
