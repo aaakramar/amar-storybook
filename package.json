@@ -61,6 +61,7 @@
     "@storybook/testing-library": "^0.0.14-next.2",
     "@storybook/theming": "^7.0.22",
     "autoprefixer": "^10.4.14",
+    "chromatic": "^6.19.9",
     "css-loader": "^6.8.1",
     "flow-bin": "^0.209.0",
     "postcss": "^8.4.24",
