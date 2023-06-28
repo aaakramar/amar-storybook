@@ -18,7 +18,9 @@
     "chromatic": "npx chromatic --project-token=chpt_f5b5e722bdf77a8"
   },
   "keywords": [],
-  "author": "amar",
+  "author": {
+    "name": "amar"
+  },
   "license": "ISC",
   "peerDependencies": {
     "react": "^18.2.0",
@@ -74,6 +76,7 @@
     "storybook": "^7.0.20",
     "typescript": "^5.1.3"
   },
+<<<<<<< HEAD
   "repository": {
     "type": "git",
     "url": "git+https://github.com/aaakramar/amar-storybook.git"
@@ -83,4 +86,9 @@
   },
   "homepage": "https://github.com/aaakramar/amar-storybook#readme",
   "description": ""
+=======
+  "description": "",
+  "readme": "ERROR: No README data found!",
+  "_id": "story-amar@1.0.0"
+>>>>>>> 6dca33c4cb4bf240215654214ecdcabf43fc49a2
 }

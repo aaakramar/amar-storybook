@@ -6,6 +6,7 @@ on: push
 
 # What the action will do
 jobs:
+<<<<<<< HEAD
   # Run interaction tests
   interaction-tests:
     runs-on: ubuntu-latest
@@ -25,6 +26,9 @@ jobs:
         run: |
           npx concurrently -k -s first -n "SB,TEST" -c "magenta,blue"             "npx http-server storybook-static --port 6006 --silent"             "npx wait-on tcp:6006 && yarn test-storybook"
   visual-tests:
+=======
+  test:
+>>>>>>> 6dca33c4cb4bf240215654214ecdcabf43fc49a2
     # The operating system it will run on
     runs-on: ubuntu-latest
     # The list of steps that the action will go through
